@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>놀러와서, 눌러앉고싶은 대전</title>
+    <meta name="description" content="대전 관광 홍보 랜딩페이지 - 취향에 맞는 코스로 나만의 여행을 만들어보세요." />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- 배경 장식 -->
+    <div class="bg-decor" id="bg-decor"></div>
+
+    <!-- ① 히어로 -->
+    <section class="hero-section">
+      <div class="hero-img-wrap">
+        <img class="hero-img" src="images/hero.png" alt="어떤 Daejeon을 만나볼래? 대전 캐릭터들과 도시 풍경" />
+        <div class="hero-fade"></div>
+      </div>
+
+      <div class="wrap hero-card-outer">
+        <div class="hero-card">
+          <div class="hero-card-bar-top"></div>
+          <div class="hero-card-body">
+            <div class="hero-card-top-row">
+              <div>
+                <h1 class="hero-title">
+                  놀러와서,<br /><span class="accent">눌러앉고싶은 대전</span>
+                </h1>
+                <p class="hero-sub">취향에 맞는 코스로 나만의 여행을 만들어보세요</p>
+              </div>
+              <span class="hero-badge">✦ PASS 2026 ✦</span>
+            </div>
+            <div class="hero-tabs-outer">
+              <div class="hero-tabs" id="hero-tabs"></div>
+            </div>
+          </div>
+          <div class="hero-card-bar-bottom"></div>
+        </div>
+        <div class="scroll-hint">
+          <span>아래로 스크롤해서 구경해요</span>
+          <span class="arrow">↓</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider">
+      <div class="divider-row">
+        <div class="divider-line"></div>
+        <svg class="divider-star" width="14" height="14" viewBox="0 0 16 16">
+          <path d="M8 0L9.8 6.2L16 8L9.8 9.8L8 16L6.2 9.8L0 8L6.2 6.2Z" fill="currentColor" />
+        </svg>
+        <div class="divider-line"></div>
+      </div>
+    </div>
+
+    <!-- ② 코스 추천 -->
+    <section class="page-section wrap">
+      <div class="map-frame">
+        <img src="images/map.png" alt="Welcome to Daejeon! 대전 지도 일러스트" />
+      </div>
+
+      <div class="section-title-block">
+        <div class="section-title-row">
+          <span class="bubble">2</span>
+          <span class="section-title-text">코스 추천</span>
+        </div>
+        <p class="section-title-sub">이동 수단과 여행 유형을 골라보세요 🗺️</p>
+      </div>
+
+      <div class="transport-toggle" id="transport-toggle"></div>
+      <div class="type-tabs" id="course-type-tabs"></div>
+      <div class="timeline" id="course-timeline"></div>
+    </section>
+
+    <div class="divider">
+      <div class="divider-row">
+        <div class="divider-line"></div>
+        <svg class="divider-star" width="14" height="14" viewBox="0 0 16 16">
+          <path d="M8 0L9.8 6.2L16 8L9.8 9.8L8 16L6.2 9.8L0 8L6.2 6.2Z" fill="currentColor" />
+        </svg>
+        <div class="divider-line"></div>
+      </div>
+    </div>
+
+    <!-- ③ 유명한 곳 -->
+    <section class="page-section wrap">
+      <div class="section-title-block">
+        <div class="section-title-row">
+          <span class="bubble">3</span>
+          <span class="section-title-text">대전 유명한 곳</span>
+        </div>
+        <p class="section-title-sub">놓치면 아쉬운 대전 명소 모음 📍</p>
+      </div>
+
+      <div class="famous-tabs" id="famous-tabs"></div>
+      <div class="famous-grid" id="famous-grid"></div>
+    </section>
+
+    <div class="divider">
+      <div class="divider-row">
+        <div class="divider-line"></div>
+        <svg class="divider-star" width="14" height="14" viewBox="0 0 16 16">
+          <path d="M8 0L9.8 6.2L16 8L9.8 9.8L8 16L6.2 9.8L0 8L6.2 6.2Z" fill="currentColor" />
+        </svg>
+        <div class="divider-line"></div>
+      </div>
+    </div>
+
+    <!-- ④ 패스 발급 -->
+    <section class="page-section wrap" style="padding-bottom: 48px;">
+      <div class="section-title-block">
+        <div class="section-title-row">
+          <span class="bubble">4</span>
+          <span class="section-title-text">대전 패스 발급받기</span>
+        </div>
+        <p class="section-title-sub">어떤 대전을 만나볼래? 카드를 눌러봐요 🎫</p>
+      </div>
+
+      <div id="pass-section-content"></div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span class="footer-text">대전광역시 관광진흥과</span>
+        <span class="footer-text">visit.daejeon.go.kr</span>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
