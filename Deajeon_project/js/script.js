@@ -589,6 +589,8 @@ function renderIssuedPass() {
     imageAreaHtml = `<img src="images/pass-heal.png" alt="힐링 코스 패스" />`;
   } else if (type === "미식") {
     imageAreaHtml = `<img src="images/pass-food.png" alt="미식 코스 패스" />`;
+  } else if (type === "액티비티") {
+    imageAreaHtml = `<img src="images/pass-activity.png" alt="액티비티 코스 패스" />`;
   } else {
     imageAreaHtml = `<div class="pass-placeholder">
       ${ico(TYPE_ICON[type], 56)}
