@@ -185,7 +185,7 @@ const COURSE_DATA = {
     힐링: {
       day1: [
         { time: "11:00", name: "대전역 도착", desc: "대전역에서 시작하는 여유로운 대중교통 힐링 여행", icon: ICONS.arboretum, transport: "지하철 약 20분" },
-        { time: "11:40", name: "정심식사 구르메", desc: "깔끔하고 정갈한 한정식으로 든든하게 시작하는 점심", icon: ICONS.artMuseum, transport: "도보 약 15분" },
+        { time: "11:40", name: "점심식사 구르메", desc: "깔끔하고 정갈한 한정식으로 든든하게 시작하는 점심", icon: ICONS.artMuseum, transport: "도보 약 15분" },
         { time: "13:20", name: "한밭수목원", desc: "도심 속 자연을 천천히 걸으며 여유를 즐기는 대전 대표 수목원", icon: ICONS.mountain, transport: "도보 약 10분" },
         { time: "15:40", name: "대전시립미술관", desc: "전시를 감상하며 조용하고 여유로운 오후를 보내는 문화 공간", icon: ICONS.spa, transport: "도보 약 10분" },
         { time: "17:10", name: "카페 휴식 타르트", desc: "한밭수목원 인근에서 커피와 디저트를 즐기며 쉬어가는 카페", icon: ICONS.lake, transport: "지하철 약 30분" },
