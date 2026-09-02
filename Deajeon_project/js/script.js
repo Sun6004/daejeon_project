@@ -1350,10 +1350,33 @@ const KAKAO_JAVASCRIPT_KEY =
 const KAKAO_SDK_URL =
   "https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js";
 
-const SHARE_URL = "https://daejeon-project.vercel.app";
+const SHARE_BASE_URL =
+  "https://daejeon-project.vercel.app/";
 
-function getShareUrl() {
-  return SHARE_URL;
+function getShareUrl(type) {
+  const url = new URL(SHARE_BASE_URL);
+
+  url.searchParams.set("utm_source", "kakao");
+  url.searchParams.set("utm_medium", "social");
+  url.searchParams.set(
+    "utm_campaign",
+    "daejeon_pass"
+  );
+
+  url.searchParams.set(
+    "utm_content",
+    TYPE_KEY[type] || "unknown"
+  );
+
+  return url.href;
+}
+
+
+function getAbsoluteImageUrl(imagePath) {
+  return new URL(
+    imagePath,
+    SHARE_BASE_URL
+  ).href;
 }
 
 // 상대경로 이미지를 절대주소로 변환
@@ -1855,8 +1878,11 @@ function renderIssuedPass() {
       `나는 대전 ${type} 패스를 받았어! ` +
       `같이 대전 가자 🎫`;
 
-    const shareUrl = getShareUrl();
-    const imagePath = PASS_IMAGE_PATH[type];
+    // 선택한 패스 종류에 맞는 UTM 링크 생성
+    const shareUrl = getShareUrl(type);
+
+    const imagePath =
+      PASS_IMAGE_PATH[type];
 
     if (!imagePath) {
       alert(
