@@ -1350,12 +1350,10 @@ const KAKAO_JAVASCRIPT_KEY =
 const KAKAO_SDK_URL =
   "https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js";
 
-// 현재 접속한 Production Domain을 공유 주소로 사용
+const SHARE_URL = "https://daejeon-project.vercel.app";
+
 function getShareUrl() {
-  return new URL(
-    "/",
-    window.location.origin
-  ).href;
+  return SHARE_URL;
 }
 
 // 상대경로 이미지를 절대주소로 변환
