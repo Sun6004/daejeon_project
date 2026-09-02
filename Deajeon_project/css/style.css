@@ -325,7 +325,6 @@ section.page-section { padding-bottom: 2rem; }
   position: absolute;
   left: 12px;
   top: 16px;
-  bottom: 16px;
   width: 2px;
   border-radius: 999px;
 }
@@ -345,7 +344,16 @@ section.page-section { padding-bottom: 2rem; }
   font-weight: 900;
   z-index: 1;
 }
-.timeline-card { border-radius: 1rem; padding: 14px; }
+.timeline-card {
+  display: block;
+  border-radius: 1rem;
+  padding: 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: filter 0.15s ease, transform 0.1s ease;
+}
+.timeline-card:hover { filter: brightness(0.97); }
+.timeline-card:active { transform: scale(0.99); }
 .timeline-card-row { display: flex; align-items: flex-start; gap: 12px; }
 .timeline-content { flex: 1; min-width: 0; }
 .timeline-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 2px; }
@@ -443,13 +451,19 @@ section.page-section { padding-bottom: 2rem; }
   user-select: none;
 }
 .famous-card {
+  display: block;
   flex: 0 0 42%;
   scroll-snap-align: start;
   border-radius: 1rem;
   overflow: hidden;
   background: #fff;
   box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+  text-decoration: none;
+  color: inherit;
+  transition: filter 0.15s ease, transform 0.1s ease;
 }
+.famous-card:hover { filter: brightness(0.97); }
+.famous-card:active { transform: scale(0.98); }
 .famous-photo {
   position: relative;
   height: 100px;
