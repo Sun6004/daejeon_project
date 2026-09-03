@@ -574,7 +574,7 @@ const COURSE_DATA = {
         },
         {
           time: "13:00",
-          name: "레이저 태그 스포츠",
+          name: "레이저태그 스포츠",
           desc: "레이저건을 들고 팀을 나눠 대결하는 박진감 넘치는 실내 서바이벌 게임",
           icon: ICONS.observatory,
           transport: "도보 약 5~10분",
@@ -668,7 +668,7 @@ const FAMOUS = [
     ],
   },
   {
-    category: "자연",
+    category: "자연·힐링",
     colorKey: "heal",
     emoji: "자연",
     places: [
@@ -697,10 +697,28 @@ const FAMOUS = [
         icon: ICONS.tree,
       },
       {
+        name: "유성온천",
+        desc: "알칼리성 라듐 온천. 대전 명물.",
+        img: "https://photo.daejeon.go.kr/thumbnail/202603/1024_PDB_202604180836019240.jpg",
+        icon: ICONS.spa,
+      },
+      {
         name: "계족산 황톳길",
         desc: "맨발로 걷는 14.5km 황톳길.",
         img: "https://photo.daejeon.go.kr/thumbnail/201900/1024_PDB_202003031135009860.JPG",
         icon: ICONS.tree,
+      },
+      {
+        name: "대전 타워",
+        desc: "대전 랜드마크 야경 포인트.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2rBIjgaPBDAevgpav-R4IWt5NSXvnMBaOgJOVN2r3Zg&s=10",
+        icon: ICONS.tower,
+      },
+      {
+        name: "갑천 수변공원",
+        desc: "산책로·자전거·야경 모두 즐길 수 있어요.",
+        img: "https://photo.daejeon.go.kr/thumbnail/202509/1024_PDB_202511220442092360.jpg",
+        icon: ICONS.bicycle,
       },
     ],
   },
@@ -736,34 +754,36 @@ const FAMOUS = [
     ],
   },
   {
-    category: "온천·힐링",
+    category: "액티비티",
     colorKey: "spa",
     emoji: "힐링",
     places: [
       {
-        name: "유성온천",
-        desc: "알칼리성 라듐 온천. 대전 명물.",
-        img: "https://photo.daejeon.go.kr/thumbnail/202603/1024_PDB_202604180836019240.jpg",
-        icon: ICONS.spa,
+        name: "갑천수상스포츠",
+        desc: "도심속 갑천에서 즐기는 수상 레포츠",
+        img: "https://photo.daejeon.go.kr/thumbnail/202409/1024_PDB_202505200253387930.jpg",
       },
       {
-        name: "두부두루치기",
-        desc: "대전 향토 음식. 얼큰하고 푸짐한 한 그릇.",
-        img: "https://photo.daejeon.go.kr/thumbnail/200611/1024_PDB_202201101044460150.JPG",
-        icon: ICONS.tofu,
+        name: "장태산 숲속어드벤처",
+        desc: "울창한 숲속 스카이워크",
+        img: "https://photo.daejeon.go.kr/thumbnail/201500/1024_PDB_202004100555131260.jpg",
       },
       {
-        name: "대전 타워",
-        desc: "대전 랜드마크 야경 포인트.",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2rBIjgaPBDAevgpav-R4IWt5NSXvnMBaOgJOVN2r3Zg&s=10",
-        icon: ICONS.tower,
+        name: "남선공원 종합체육관",
+        desc: "사계절 실내 스케이트, 스쿼시, 수영",
+        img: "https://photo.daejeon.go.kr/thumbnail/201612/1024_PDB_201910250334267220.JPG",
       },
       {
-        name: "갑천 수변공원",
-        desc: "산책로·자전거·야경 모두 즐길 수 있어요.",
-        img: "https://photo.daejeon.go.kr/thumbnail/202509/1024_PDB_202511220442092360.jpg",
-        icon: ICONS.bicycle,
+        name: "안흥여관",
+        desc: "여관건물 통채로 방탈출. 진짜귀신나와요!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDU_ZR2siWA0mbMjjsY7AhfURCDoPeck47WaYPaqtZKg&s=10",
       },
+      {
+        name: "레이저 태그 스포츠",
+        desc: "팀을 나눠 레이저건으로 대결하는 박진감 넘치는 실내 서바이벌.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxakbmj3gkuh6HFe1oRXyltmPOsgO1_qMy_N4K7wMHfQ&s",
+      },
+
     ],
       },
 ];
