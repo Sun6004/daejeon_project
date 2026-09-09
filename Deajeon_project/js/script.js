@@ -1125,12 +1125,20 @@ function renderCourseTimeline() {
 
   const isDay1 = courseState.day === 1;
 
+  const money = courseState.day === 1 ? "20~30 만원" : "10~15 만원";
+
   const dayBadge = `
     <div
       class="day-badge"
       style="background:${tc.main};"
     >
       ${courseState.day}일차
+    </div>
+    <div
+      class="day-badge"
+      style="background:${tc.main};"
+    >
+    예상경비: ${money}
     </div>
   `;
 
