@@ -5,12 +5,11 @@
 
 🔗 Project Links
 
-기획서
-B조) 대전 관광 홍보 최종기획서.pdf
+## 🔗 Project Links
 
-PPT
+📄 [대전 관광 홍보 최종 기획서](https://github.com/user-attachments/files/32176513/B._._._.pdf)
 
-대전 관광 홍보 프로젝트 발표자료
+📊 [대전 관광 홍보 프로젝트 PPT](https://docs.google.com/presentation/d/1fmYkehDVR2N4YC7ii70ck3H5XV59bCw3/edit?usp=sharing&ouid=116920823792967611984&rtpof=true&sd=true)
 
 📌 Project Overview
 
