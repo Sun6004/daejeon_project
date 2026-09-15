@@ -1389,7 +1389,7 @@ const PASS_IMAGE_PATH = {
 // "JavaScript 키"를 복사해 넣으세요.
 // REST API 키나 네이티브 앱 키를 넣으면 작동하지 않습니다.
 const KAKAO_JAVASCRIPT_KEY =
-  "3da708ef896b58f4cba3b49738917b19";
+  "";
 
 const KAKAO_SDK_URL =
   "https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js";
