@@ -9,7 +9,7 @@
 
 - 📄 [최종 기획서 보기](https://github.com/user-attachments/files/32176513/B._._._.pdf)
 - 📊 [프로젝트 발표자료 보기](https://docs.google.com/presentation/d/1fmYkehDVR2N4YC7ii70ck3H5XV59bCw3/edit?usp=sharing&ouid=116920823792967611984&rtpof=true&sd=true)
-- 🌐 [랜딩페이지 바로가기](랜딩페이지_URL)
+- 🌐 [랜딩페이지 바로가기](https://daejeon-pass-em4e3595n-spectrum11-fd26.vercel.app/)
 
 <br>
 
